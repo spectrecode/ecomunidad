@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #737373;
+}
+
+header{
+	list-style: none;
+}
+
+header a {
+	padding: 5% 3%;
+	color: #585858;
+	font-size: 20px;
+}
+
+.logo {
+	width: 70%;
+}
+
+head a:not(.menos) {
+	border-right: 1px solid #585858;
+}
+
+header a:hover{
+	color: #5E8039;
+	background-color: #F2F2F2;
+}
+
+section .banner {
+	background-image: url("../img/semilla.jpg");
+	height: 400px;
+}
+
+.foda {
+	width: 40%;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+.metodo {
+	background-image:url("../img/metodos.jpg");
+	height: 500px;
+}
+
+.fondo {
+	background-image:url("../img/fondo.jpg");
+	height: 500px;
+}
+
+.icon-block {
+	width: 15%;
+}
+
+h2.pb-3 {
+	padding-bottom: 3%;
+}
+
+.icon-serv {
+	width: 70%;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+#proyectos h4 {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-size: 18px;
+}
+
+.proyecto {
+	padding-left: 2%;
+}
+
+#equipo h3 {
+	padding-bottom: 3%;
+}
+
+#equipo .red {
+	width: 10%;
+}
+
+.equipo {
+	border-radius: 50%;
+	width: 50%;
+}
+
+#blog {
+	background-image: url("../img/fondo2.jpg");
+}
+
+#blog img:hover{
+	color: #5E8039;
+}
+
+#comunidad {
+	background-color: #626262;
+}
+
+.caja {
+	border: 1px solid white;
+	height: 280px;
+	position: relative;
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+.ico-red {
+	width: 20%;
+	position: absolute;	
+	right: 5%;
+}
+
+#comunidad h3{
+	display: inline;
+}
+
+footer a {
+	color: #737373;
+}
+
+.slid-izq {
+	position: absolute;
+	width: 10%;
+	left: 0;
+	padding: 15% 3%;
+}
+
+.slid-der {
+	position: absolute;
+	width: 10%;
+	right: 0;
+	padding: 15% 3%;
+}
+
+.post:hover{
+	color: green;
+}
